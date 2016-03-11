@@ -17,3 +17,7 @@ Branches are local versions of a file. A clone is a copy of a file or batch of f
 local computer. A fork is like a clone except it copies the file(s) from a github user to your github, allowing
 the original to be credited and also shows that user any changes you make, which allows for collaborative
 improvements.
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It allows you to work offline on the files. 
