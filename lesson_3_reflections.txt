@@ -27,3 +27,11 @@ It allows you to work offline on the files.
 Collaborating without using Git would require a lot of file sharing back and forth and any changes
 would probably not be tracked. It wouldn't allow any public contributors to work on the project because you
 would need to manually send files to specific people to work on. 
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does
+each approach have?
+
+Making changes in a separate branch allows you to organize your potential changes to master accordingly. You 
+could try adding some different features in various branches without affecting the master branch. I think of
+the master branch as the controlled variable and the separate branches as the experimental variables. On the other 
+hand, it takes more steps to push and pull and merge all the changes which could be inconvenient for multiple collaborators.
